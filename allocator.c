@@ -2,6 +2,18 @@
 #include <stdlib.h>
 #include <string.h>
 
+struct Text {
+  size_t length;
+  char *text;
+};
+
+typedef struct Text Text;
+
+Text create_test(char *text) {
+  Text test = {.length = strlen(text), .text = text};
+  return test;
+}
+
 char *allocate_string(const char *str) {
   // allocate memory equal to strings length on the heap
   char *pointer = (char *)malloc(strlen(str) * sizeof(char));

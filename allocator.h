@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+struct Text;
+
+typedef struct Text Text;
+
 /**
  * allocate string on the heap memory
  */
