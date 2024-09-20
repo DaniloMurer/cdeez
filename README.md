@@ -4,20 +4,22 @@ some relearning of c, since it's a cool language
 
 ## setup
 
-make sure that the `compile.sh` script has execution permissions:
+the project can be built using make. so make sure make and build-essential are installed on your system.
 
-```sh
-chmod +x compile.sh
+### build project
+
+```bash
+make
 ```
 
-then run the compile script (note that cdeez is always being compiled with debug information):
-
-```sh
-./compile.sh
-```
-
-finally you can start the compiled binary:
+### run binary
 
 ```bash
 ./cdeez
+```
+
+### clean crated object files and binaries
+
+```bash
+make clean
 ```
