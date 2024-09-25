@@ -1,6 +1,12 @@
 # cdeez
 
-some relearning of c, since it's a cool language
+some relearning of c, since it's a cool language.
+
+this in fact was my main goal, but now i think it would be cool to implement a static analyzer.
+
+this means that cdeez is more like: cdeez errors? since the program should check for some simple errors that could occur on a migration we're doing at the company.
+
+written in c, god's programming language, it's highly efficient and together with valgrind i'm making sure no memory leaks are to be found.
 
 ## setup
 

@@ -1,7 +1,7 @@
 COMPILER = gcc
 COMPILERFLAGS = -Wall -g -g3
 LIBRARIES =
-OBJFILES = allocator.o main.o
+OBJFILES = allocator.o main.o lib/reader.o
 TARGET = cdeez
 
 
